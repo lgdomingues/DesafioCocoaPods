@@ -33,11 +33,17 @@ class ImagensTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         // Configure the cell...
         let celula = tableView.dequeueReusableCell(withIdentifier: "celula", for: indexPath) as! CatsTableViewCell
-        let myURL = URL(string: "https://lorempixel.com/400/200/city/\(indexPath.row)/")
+        let indice = indexPath.row
+        let categoria = "city"
+        // Resgatar o scale da tela (por causa das diferentes resoluções de iPhone, @1x, @2x, @3x, @26x)
+        let escalaTela = UIScreen.main.scale
+        let largura = Int(celula.imageViewCats.frame.width * escalaTela)
+        let altura = Int(celula.imageViewCats.frame.height * escalaTela)
+        
+        let myURL = URL(string: "https://lorempixel.com/\(largura)/\(altura)/\(categoria)/\(indice)/")
         
         celula.imageViewCats.sd_setImage(with: myURL)
-        
-        
+                
         return celula
     }
     
