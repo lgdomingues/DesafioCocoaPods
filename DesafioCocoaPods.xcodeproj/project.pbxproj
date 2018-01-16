@@ -12,9 +12,15 @@
 		43BFD4E8200EB3350027B601 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43BFD4E6200EB3350027B601 /* Main.storyboard */; };
 		43BFD4EA200EB3350027B601 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43BFD4E9200EB3350027B601 /* Assets.xcassets */; };
 		43BFD4ED200EB3350027B601 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43BFD4EB200EB3350027B601 /* LaunchScreen.storyboard */; };
+		43BFD4F5200EB8D50027B601 /* ImagensTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BFD4F4200EB8D50027B601 /* ImagensTableViewController.swift */; };
+		43BFD4F7200EBDAA0027B601 /* CatsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BFD4F6200EBDAA0027B601 /* CatsTableViewCell.swift */; };
+		43BFD4FA200EBEAF0027B601 /* TesteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BFD4F8200EBEAF0027B601 /* TesteTableViewCell.swift */; };
+		43BFD4FB200EBEAF0027B601 /* TesteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43BFD4F9200EBEAF0027B601 /* TesteTableViewCell.xib */; };
+		EEC928D1579DEFF430B7303E /* Pods_DesafioCocoaPods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194E97360F19F39E0DD85D00 /* Pods_DesafioCocoaPods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		194E97360F19F39E0DD85D00 /* Pods_DesafioCocoaPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioCocoaPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43BFD4DF200EB3350027B601 /* DesafioCocoaPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioCocoaPods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43BFD4E2200EB3350027B601 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43BFD4E4200EB3350027B601 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,12 @@
 		43BFD4E9200EB3350027B601 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43BFD4EC200EB3350027B601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43BFD4EE200EB3350027B601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43BFD4F4200EB8D50027B601 /* ImagensTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagensTableViewController.swift; sourceTree = "<group>"; };
+		43BFD4F6200EBDAA0027B601 /* CatsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsTableViewCell.swift; sourceTree = "<group>"; };
+		43BFD4F8200EBEAF0027B601 /* TesteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesteTableViewCell.swift; sourceTree = "<group>"; };
+		43BFD4F9200EBEAF0027B601 /* TesteTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TesteTableViewCell.xib; sourceTree = "<group>"; };
+		4E8F41ADE67626C6C0C8C0B3 /* Pods-DesafioCocoaPods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioCocoaPods.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DesafioCocoaPods/Pods-DesafioCocoaPods.debug.xcconfig"; sourceTree = "<group>"; };
+		7E9DE6DF5C3CCF0B98589369 /* Pods-DesafioCocoaPods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioCocoaPods.release.xcconfig"; path = "Pods/Target Support Files/Pods-DesafioCocoaPods/Pods-DesafioCocoaPods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEC928D1579DEFF430B7303E /* Pods_DesafioCocoaPods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		263CCD3BA467D1B5FFA2B7A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				194E97360F19F39E0DD85D00 /* Pods_DesafioCocoaPods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		43BFD4D6200EB3350027B601 = {
 			isa = PBXGroup;
 			children = (
 				43BFD4E1200EB3350027B601 /* DesafioCocoaPods */,
 				43BFD4E0200EB3350027B601 /* Products */,
+				520D7C3E2F4C6C11D0185032 /* Pods */,
+				263CCD3BA467D1B5FFA2B7A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +79,25 @@
 			children = (
 				43BFD4E2200EB3350027B601 /* AppDelegate.swift */,
 				43BFD4E4200EB3350027B601 /* ViewController.swift */,
+				43BFD4F4200EB8D50027B601 /* ImagensTableViewController.swift */,
+				43BFD4F6200EBDAA0027B601 /* CatsTableViewCell.swift */,
+				43BFD4F8200EBEAF0027B601 /* TesteTableViewCell.swift */,
+				43BFD4F9200EBEAF0027B601 /* TesteTableViewCell.xib */,
 				43BFD4E6200EB3350027B601 /* Main.storyboard */,
 				43BFD4E9200EB3350027B601 /* Assets.xcassets */,
 				43BFD4EB200EB3350027B601 /* LaunchScreen.storyboard */,
 				43BFD4EE200EB3350027B601 /* Info.plist */,
 			);
 			path = DesafioCocoaPods;
+			sourceTree = "<group>";
+		};
+		520D7C3E2F4C6C11D0185032 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E8F41ADE67626C6C0C8C0B3 /* Pods-DesafioCocoaPods.debug.xcconfig */,
+				7E9DE6DF5C3CCF0B98589369 /* Pods-DesafioCocoaPods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43BFD4F1200EB3350027B601 /* Build configuration list for PBXNativeTarget "DesafioCocoaPods" */;
 			buildPhases = (
+				1E2CE7A4C0FAF845064EE0A5 /* [CP] Check Pods Manifest.lock */,
 				43BFD4DB200EB3350027B601 /* Sources */,
 				43BFD4DC200EB3350027B601 /* Frameworks */,
 				43BFD4DD200EB3350027B601 /* Resources */,
+				93D2EA2A0E6EA86B42A16D21 /* [CP] Embed Pods Frameworks */,
+				82AA4DFC5A4533D20C7F1270 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,18 +165,76 @@
 				43BFD4ED200EB3350027B601 /* LaunchScreen.storyboard in Resources */,
 				43BFD4EA200EB3350027B601 /* Assets.xcassets in Resources */,
 				43BFD4E8200EB3350027B601 /* Main.storyboard in Resources */,
+				43BFD4FB200EBEAF0027B601 /* TesteTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E2CE7A4C0FAF845064EE0A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesafioCocoaPods-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82AA4DFC5A4533D20C7F1270 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DesafioCocoaPods/Pods-DesafioCocoaPods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93D2EA2A0E6EA86B42A16D21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DesafioCocoaPods/Pods-DesafioCocoaPods-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DesafioCocoaPods/Pods-DesafioCocoaPods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		43BFD4DB200EB3350027B601 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43BFD4F7200EBDAA0027B601 /* CatsTableViewCell.swift in Sources */,
 				43BFD4E5200EB3350027B601 /* ViewController.swift in Sources */,
 				43BFD4E3200EB3350027B601 /* AppDelegate.swift in Sources */,
+				43BFD4F5200EB8D50027B601 /* ImagensTableViewController.swift in Sources */,
+				43BFD4FA200EBEAF0027B601 /* TesteTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +369,7 @@
 		};
 		43BFD4F2200EB3350027B601 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E8F41ADE67626C6C0C8C0B3 /* Pods-DesafioCocoaPods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +384,7 @@
 		};
 		43BFD4F3200EB3350027B601 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E9DE6DF5C3CCF0B98589369 /* Pods-DesafioCocoaPods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
